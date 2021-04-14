@@ -22,7 +22,7 @@ const theme = createMuiTheme({
 theme.typography.h1 = {
   fontSize: "6rem",
   letterSpacing: "-2px",
-  fontWeight: "300",
+  fontWeight: "400",
   padding: "0.5rem 0.9rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "4.75rem",
@@ -37,7 +37,7 @@ theme.typography.h1 = {
 theme.typography.h2 = {
   fontSize: "5.25rem",
   letterSpacing: "-1.75px",
-  fontWeight: "300",
+  fontWeight: "400",
   padding: "0.5rem 0.9rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "4rem",
@@ -52,7 +52,7 @@ theme.typography.h2 = {
 theme.typography.h3 = {
   fontSize: "4.5rem",
   letterSpacing: "-1.5px",
-  fontWeight: "300",
+  fontWeight: "400",
   padding: "0.5rem 0.9rem",
 
   [theme.breakpoints.down("md")]: {
@@ -68,7 +68,7 @@ theme.typography.h3 = {
 theme.typography.h4 = {
   fontSize: "3.75rem",
   letterSpacing: "-1.35px",
-  fontWeight: "300",
+  fontWeight: "600",
   padding: "0.5rem 0.9rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "2.65rem",
@@ -83,7 +83,7 @@ theme.typography.h4 = {
 theme.typography.h5 = {
   fontSize: "3.25rem",
   letterSpacing: "-1.25px",
-  fontWeight: "300",
+  fontWeight: "500", //zmena
   padding: "0.5rem 0.9rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "2.15rem",
@@ -92,13 +92,14 @@ theme.typography.h5 = {
   [theme.breakpoints.down("sm")]: {
     fontSize: "1.55rem",
     letterSpacing: "-0.25px",
+    wordSpacing: "-0.5rem", //DOUPRAVIT
   },
 };
 
 theme.typography.h6 = {
   fontSize: "2.75rem",
   letterSpacing: "-1px",
-  fontWeight: "300",
+  fontWeight: "400",
   padding: "0.5rem 0.9rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "1.75rem",
@@ -130,8 +131,9 @@ theme.typography.subtitle1 = {
   },
 };
 theme.typography.subtitle2 = {
-  fontSize: "1.5rem",
+  fontSize: "1.25rem",
   padding: "0.5rem 1rem",
+  lineHeight: "1.5rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "1rem",
   },

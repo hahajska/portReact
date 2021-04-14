@@ -16,6 +16,10 @@ function App() {
       <ThemeProvider theme={theme}>
         <StyledTypography variant="h1">Responsive h1</StyledTypography>
         <Typography variant="h2">Responsive h2</Typography>
+        <Typography variant="h3">Responsive h3</Typography>
+        <Typography variant="h4">Responsive h4</Typography>
+        <Typography variant="h5">Responsive h5</Typography>
+        <Typography variant="h6">Responsive h6</Typography>
         <Typography variant="subtitle1">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
           mollitia incidunt voluptatum nobis dolores assumenda.

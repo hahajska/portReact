@@ -1,6 +1,6 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
-const theme = createMuiTheme({
+export const theme = createMuiTheme({
   props: {
     MuiTypography: {
       variantMapping: {
@@ -36,8 +36,8 @@ theme.typography.h1 = {
 
 theme.typography.h2 = {
   fontSize: "5.25rem",
-  letterSpacing: "-1.75px",
-  fontWeight: "400",
+  letterSpacing: "-2px",
+  fontWeight: "500",
   padding: "0.5rem 0.9rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "4rem",
@@ -75,7 +75,7 @@ theme.typography.h4 = {
     letterSpacing: "-0.5px",
   },
   [theme.breakpoints.down("sm")]: {
-    fontSize: "1.8rem",
+    fontSize: "1.5rem",
     letterSpacing: "-0.25px",
   },
 };
@@ -125,18 +125,20 @@ theme.typography.h6 = {
 
 theme.typography.subtitle1 = {
   fontSize: "1.5rem",
-  padding: "0.5rem 0.9rem",
+  padding: "0.5rem 1.05rem",
+  lineHeight: "1.8rem",
+
   [theme.breakpoints.down("md")]: {
     fontSize: "1.25rem",
+    lineHeight: "1.3rem",
   },
 };
 theme.typography.subtitle2 = {
   fontSize: "1.25rem",
-  padding: "0.5rem 1rem",
-  lineHeight: "1.5rem",
+  padding: "0.5rem 1.05rem",
+  lineHeight: "1.4rem",
   [theme.breakpoints.down("md")]: {
     fontSize: "1rem",
+    lineHeight: "1.1srem",
   },
 };
-
-export { theme };
